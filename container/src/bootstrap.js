@@ -1,4 +1,5 @@
-import 'products/ProductIndex';
-import 'cart/CartIndex';
+import { mount as mountProduct } from 'products/ProductIndex';
+import { mount as mountCart } from 'cart/CartIndex';
 
-console.log('Container');
+mountProduct(document.querySelector('#products-container'));
+mountCart(document.querySelector('#cart-container'));
