@@ -1,0 +1,1 @@
+Simple example of Microfrontends using Webpack Module Federation module.
